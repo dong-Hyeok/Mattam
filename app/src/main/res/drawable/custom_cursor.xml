@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:width="2dp" /> <!-- 커서의 너비를 조정합니다 -->
+    <solid android:color="@color/black" /> <!-- 커서의 색상을 지정합니다 -->
+</shape>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/background_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/backgroundimg2"
+        android:scaleType="fitXY"
+        android:tint="#A0000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+    <TextView
+        android:id="@+id/profile_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Info."
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:fontFamily="@font/bold"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:id="@+id/modify_img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/white_modify"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/delete_img"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <ImageView
+        android:id="@+id/delete_img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/white_delete"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.5"
+        app:layout_constraintTop_toBottomOf="@id/profile_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/divider" />
+
+    <ImageView
+        android:id="@+id/info_profile_img"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        tools:src = "@tools:sample/avatars"
+        android:background="@drawable/round_background"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toBottomOf="@id/divider"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/info_id_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "theo_no"
+        android:fontFamily="@font/bold"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintStart_toEndOf="@id/info_profile_img"
+        app:layout_constraintTop_toTopOf="@id/info_profile_img"
+        app:layout_constraintBottom_toBottomOf="@id/info_profile_img"/>
+
+    <TextView
+        android:id="@+id/info_content_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You know that certain foods can help you lose weight and lower your risk for disease — but do you know why?"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_profile_img"/>
+
+    <ImageView
+        android:id="@+id/comment_img"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/white_comment"
+        app:layout_constraintTop_toBottomOf="@id/info_content_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="2dp"/>
+
+
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.5"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintTop_toBottomOf="@id/comment_img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/divider" />
+    
+    <TextView
+        android:id="@+id/info_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Store."
+        android:fontFamily="@font/regular"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/divider2"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/info_store_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="영추맛"
+        android:textSize="16sp"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/white"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/info_store"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:alpha="0.5"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintTop_toBottomOf="@id/info_store_tv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/divider" />
+
+    <TextView
+        android:id="@+id/info_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location."
+        android:fontFamily="@font/regular"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/divider3"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/info_location_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="경상북도 구미시 진평동 454-8번지"
+        android:fontFamily="@font/regular"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/info_location"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30dp"
+        android:alpha="0.5"
+        android:layout_marginHorizontal="20dp"
+        app:layout_constraintTop_toBottomOf="@id/info_location"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@color/divider" />
+
+    <TextView
+        android:id="@+id/info_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tel."
+        android:fontFamily="@font/regular"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/divider4"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/info_tel_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="054-259-6458"
+        android:fontFamily="@font/regular"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:layout_marginRight="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/info_tel"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/search_store"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="가게 검색"
+        android:fontFamily="@font/regular"
+        android:textSize="20sp"
+        android:textColor="@color/editPhoto"
+        app:layout_constraintTop_toBottomOf="@id/info_tel"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:paddingBottom="110dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info_tel"
+        app:layout_constraintVertical_bias="0.711"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/search_ani" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

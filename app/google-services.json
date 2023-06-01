@@ -1,0 +1,100 @@
+{
+  "project_info": {
+    "project_number": "123899698203",
+    "project_id": "final-project-11-ebff8",
+    "storage_bucket": "final-project-11-ebff8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123899698203:android:02963f97345f3ae3dbacbe",
+        "android_client_info": {
+          "package_name": "com.mattam.hacha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123899698203-v2use3v58ehj3grnhmlbbjpkk6fie6e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADXZPGpfcCdH0WllGFyik0N33DhMp4FNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123899698203-u7l8jchb4b4qa3m1k6tk98llvsaosfsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123899698203:android:ba73a72083da8891dbacbe",
+        "android_client_info": {
+          "package_name": "com.ssafy.hacha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123899698203-8gus9pv7lhciqq1gjjtepp7g8s6j5akk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ssafy.hacha",
+            "certificate_hash": "dfc314149a47ff05dd3d8cfb6644ecab8c26ee01"
+          }
+        },
+        {
+          "client_id": "123899698203-9rd63eij5be3i6qn2t73nprcrpe11oat.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ssafy.hacha",
+            "certificate_hash": "77a4deaba2dc743b3adcf2a4c321ac4a42935e8d"
+          }
+        },
+        {
+          "client_id": "123899698203-bcrgcva1k0hfgrouqfab44qke4372mac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ssafy.hacha",
+            "certificate_hash": "caaaadafaf0cec742bbb993970ff877d283bb83b"
+          }
+        },
+        {
+          "client_id": "123899698203-kggivu0f6e0ql8850118osp1d7s1ca77.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ssafy.hacha",
+            "certificate_hash": "a14ea5011f62df349d96c84288d6596adb608791"
+          }
+        },
+        {
+          "client_id": "123899698203-v2use3v58ehj3grnhmlbbjpkk6fie6e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADXZPGpfcCdH0WllGFyik0N33DhMp4FNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123899698203-u7l8jchb4b4qa3m1k6tk98llvsaosfsc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
